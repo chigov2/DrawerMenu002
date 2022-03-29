@@ -39,6 +39,18 @@ public class MainActivity extends AppCompatActivity {
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if(item.getItemId() == R.id.mItem1){
+                    Toast.makeText(MainActivity.this,"Hello1",Toast.LENGTH_SHORT).show();
+                }
+                if(item.getItemId() == R.id.mItem2){
+                    Toast.makeText(MainActivity.this,"Hello2",Toast.LENGTH_SHORT).show();
+                }
+                if(item.getItemId() == R.id.mItem3){
+                    Toast.makeText(MainActivity.this,"Hello3",Toast.LENGTH_SHORT).show();
+                }
+                if(item.getItemId() == R.id.mItem4){
+                    Toast.makeText(MainActivity.this,"Hello4",Toast.LENGTH_SHORT).show();
+                }
 
 
                 //Toast.makeText(MainActivity.this,"Hello",Toast.LENGTH_SHORT).show();
